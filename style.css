@@ -1,0 +1,47 @@
+/*http://pierre-giraud.com/html-css/exercices-html-css/creation-menu-simple-html-css.php*/
+
+body
+{
+	font-family: serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav
+{
+	width: 100%;
+}
+
+nav ul
+{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+nav a
+{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #003A49;
+
+}
+
+nav li
+{
+	list-style-type: none;
+	float: right;
+	display: reverse-order;
+}
+
+body
+{
+	color:#003A49;
+}
+
+a:hover
+{
+	border-bottom: 5px solid #F15839;
+	color: #F15839;
+}
