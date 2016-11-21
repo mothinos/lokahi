@@ -2,23 +2,29 @@
 /* http://fr.learnlayout.com/position.html 7/19 pour les position relatives et absolue et fixe*/
 /*font-family: 'Open Sans Condensed', sans-serif;*/
 
-.logo
+img [title="logo"]
 {
-	padding-left: 40px;
 	float: left;
-	width: 158px;
-	height:58px;
-
+	width: 100%
+	max-height: auto;
+	display: flex;
+	flex-wrap: nowrap;
 }
 
-body
+header
 {
 	font-weight: 900;
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 1.2em;
-	letter-spacing: 0.2em;
-	margin: 0px;
-	padding-top: 20px;
+	font-size: 1em;
+	letter-spacing: 0.25em;
+	/*margin: 0px;*/
+	width: 100%;
+	/*padding: 10px;*/
+	overflow: hidden;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+
 }
 
 nav
@@ -27,29 +33,21 @@ nav
  	margin: 0 auto; 
 }
 
-header
-{
-	width: 100%;
-}
-
-header
-{
-	margin: 0px;
-	padding: 0px;
-	overflow: hidden;
-	display: flex;
-    
-}
-
-
 header a
 {
 	text-decoration: none;
-	vertical-align: bottom;
-	padding-left: /*50px*/ 50px;
-	margin-top: 100px;
+	/*vertical-align: bottom;*/
+	padding-bottom: 0px;
+	margin-bottom: 0px;
 	color: #003A49;
 
+}
+
+nav ul
+{
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: nowrap;
 }
 
 nav li
@@ -69,8 +67,28 @@ body
 
 a:hover
 {
-
-	text-decoration: underline;
-	/*text-underline-position: over 10px;*/
+	border-bottom: solid #F14928 2px;
+	/*text-decoration: underline;*/
 	color: #F14928;
+}
+
+#icones
+{
+	float: right;
+	display: inline-block;
+
+}
+
+.icones
+{
+	border-left: 5px solid #003A4;
+	width: 29px;
+	height: 24px;
+}
+
+.slider
+{
+	display: flex;
+	overflow: hidden;
+	width: 100%;
 }
