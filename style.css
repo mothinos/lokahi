@@ -1,84 +1,40 @@
 /*http://pierre-giraud.com/html-css/exercices-html-css/creation-menu-simple-html-css.php*/
 /* http://fr.learnlayout.com/position.html 7/19 pour les position relatives et absolue et fixe*/
 /*font-family: 'Open Sans Condensed', sans-serif;*/
-header
+/*#header
 {
-	/*font-family: 'Open Sans Condensed', sans-serif;*/
 	font-weight: bolder;
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
 	letter-spacing: 0.25em;
-	/*margin: 0px;*/
 	width: 100%;
-	/*padding: 10px;*/
-	/*overflow: hidden;*/
 	display: flex;
 	flex-wrap: nowrap;
-	
 	margin-top:20px;
 	margin-bottom:20px;
 	margin-right:60px;
 	margin-left:60px;
-	
+	}
 
 
-}
-
-img [title="logo"]
-{
-	float: left;
-	width: 100%;
-	max-height: 60px;
-	height: 100%;
-	display: flex;
-	flex-wrap: nowrap;
-}
 
 #menu_principal
 {
-	/*width: 100%;*/
-}
-
-nav
-{
-	/*display: inline-flex;
-	align-content: bottom;*/
 	width: 100%;
-	/*display: flex;
-	justify-content: space-around;
-    align-items: bottom;
- 	margin: 0 auto; */
 }
 
-header a
-{
-	text-decoration: none;
-	/*vertical-align: bottom;
-	padding-bottom: 00px;
-	margin-bottom: 0px;*/
-	color: #003A49;
-}
+
+
 
 nav ul
 {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: nowrap;
-	/*padding-left: 10px;*/
+
 }
 
-nav li
-{
 
-	/*position: relative;
-	top: 20px;
-	left:200px;
-	align-items: center;*/
-	
-	list-style-type: none;
-	/*flex-direction: reverse;*/
-	/*float: right;*/	
-}
 
 body
 {
@@ -89,7 +45,6 @@ body
 {
 	border-bottom: solid #F14928 1px;
 	padding-bottom: 5px;
-	/*text-decoration: underline;*/
 	color: #F14928;
 }
 
@@ -111,7 +66,36 @@ body
 	padding-right: 7px;
 	width: 20px;
 	height: 20px;
+}*/
+
+
+#header
+{
+	display: flex;
+	flex-wrap: nowrap;
 }
+
+img [title="logo"]
+{
+	float: left;
+	width: 100%;
+	max-height: 60px;
+	max-width: 160px;
+	height: 100%;
+}
+
+nav li
+{
+	list-style-type: none;	
+}
+
+#header a
+{
+	text-decoration: none;
+
+	color: #003A49;
+}
+
 
 .slider
 {
