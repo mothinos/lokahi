@@ -102,25 +102,23 @@ ul
 	padding-top: 65px;
 }
 
+
+/*trois images et les hover*/
+
+
 #img_left #img_middle #img_right
 {
 	height: 175px;
-
 }
 
 #img_left
 {
-	/*-webkit-align-items: center;
-	align-items: center;
-	-webkit-justify-content: center;
-	justify-content: center;*/
 	width: 330px;
 	max-height: 175px;
 	height: 175px;
 	background-image: url(images/img-race.jpg);
 	background-size: cover;
 
-    
 }
 
 #middle_hover_left
@@ -132,21 +130,63 @@ ul
 	width: 280px;
 	height: 140px;
 	background-color: white;
-	/*opacity: 0;
-	transition: opacity 0.3s ease-in-out;*/
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.ico_hover
+{
+
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+button
+{
+	
+	
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px;
+    width:125px;
+    height:30px;
+    border: 3px solid #F24725;
+}
+
+button a
+{
+	color: #F24725;
+	font-weight: medium;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.1em;
+	text-decoration: none;
+	background-color: #FFF;
+}
+
+button:hover
+{
+	cursor: pointer;
+
 }
 
 #img_left:hover #middle_hover_left/* agir sur le 2em element a partir du premier*/
 {
 	visibility: visible;
+	opacity: 1;
+	transition: opacity 0.3s ease-in-out;
+}
+#img_left:not(:hover) #middle_hover_left/* agir sur le 2em element a partir du premier*/
+{
+	visibility: visible;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
 }
 
 #img_middle
 {
-	/*-webkit-align-items: center;
-	align-items: center;
-	-webkit-justify-content: center;
-	justify-content: center;*/
 	width: 330px;
 	max-height: 175px;
 	height: 175px;
@@ -164,20 +204,26 @@ ul
 	width: 280px;
 	height: 140px;
 	background-color: white;
-	/*transition: opacity 0.3s ease-in-out;*/
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
 }
 
 #img_middle:hover #middle_hover_middle/* agir sur le 2em element a partir du premier*/
 {
 	visibility: visible;
+	opacity: 1;
+	transition: opacity 0.3s ease-in-out;
+}
+#img_middle:not(:hover) #middle_hover_middle/* agir sur le 2em element a partir du premier*/
+{
+	visibility: visible;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
 }
 
 #img_right
 {
-/*	-webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-	justify-content: center;*/
+	justify-content: center;
 	width: 330px;
 	max-height: 175px;
 	height: 175px;
@@ -194,11 +240,20 @@ ul
 	width: 280px;
 	height: 140px;
 	background-color: white;
+	opacity: 0;
 }
 
 #img_right:hover #middle_hover_right/* agir sur le 2em element a partir du premier*/
 {
 	visibility: visible;
+		opacity: 1;
+	transition: opacity 0.3s ease-in-out;
+}
+#img_right:not(:hover) #middle_hover_right/* agir sur le 2em element a partir du premier*/
+{
+	visibility: visible;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
 }
 
 .ico_middle
@@ -208,23 +263,3 @@ ul
     margin-right: auto;
     margin-top: 70px; 
 }
-
-
-
-
-
-/*.range-bloc-hover {
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    width: 85%;
-    height: 207px;
-    background-color: #fff;
-    color: #f24725;
-    text-align: center;
-    transition: opacity 0.3s ease-in-out;
-}*/
