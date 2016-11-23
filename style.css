@@ -1,102 +1,6 @@
 /*http://pierre-giraud.com/html-css/exercices-html-css/creation-menu-simple-html-css.php*/
 /* http://fr.learnlayout.com/position.html 7/19 pour les position relatives et absolue et fixe*/
-/*font-family: 'Open Sans Condensed', sans-serif;*/
-/*#header
-{
-	font-weight: bolder;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1em;
-	letter-spacing: 0.25em;
-	width: 100%;
-	display: flex;
-	flex-wrap: nowrap;
-	margin-top:20px;
-	margin-bottom:20px;
-	margin-right:60px;
-	margin-left:60px;
-	}
 
-
-
-#menu_principal
-{
-	width: 100%;
-}
-
-
-
-
-nav ul
-{
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: nowrap;
-
-}
-
-
-
-body
-{
-	color:#003A49;
-}
-
-.menu_principal a:hover
-{
-	border-bottom: solid #F14928 1px;
-	padding-bottom: 5px;
-	color: #F14928;
-}
-
-#icones
-{
-	
-	float: right;
-	display: flex;
-	flex-wrap: nowrap;
-	padding-right: 100px;
-}
-
-
-.icones
-{
-
-	border-right: 1px solid #003A49;
-	margin-left: 5px;
-	padding-right: 7px;
-	width: 20px;
-	height: 20px;
-}*/
-
-/*.menu_principal
-{
-	width: 100%;
-	display: flex;
-	
-}
-
-#header
-{
-	
-	justify-content: space-around;
-}
-#menu
-{
-	display: inline-flex;
-	justify-content: space-around;
-}
-
-#icones
-{
-	display: flex;
-	justify-content: space-around;
-}
-
-ul 
-{
-	display: flex;
-	justify-content: space-around;
-}*/
 
 #header
 {
@@ -107,12 +11,7 @@ ul
 	font-family: 'Roboto', sans-serif;
 	font-size: 1em;
 	letter-spacing: 0.25em;
-	/*font-size: 0.8em;*/
 	margin: auto;
-	/*margin-top: 20px;
-	margin-right: 40px;
-	margin-bottom: 20px;
-	margin-left: 40px;*/
 
 }
 
@@ -128,14 +27,6 @@ ul
 {
 	display: flex;
 }
-
-/*
-li
-{
-	display: flex;
-	justify-content: space-around;
-}*/
-
 
 .logo
 {
@@ -219,71 +110,97 @@ li
 
 #img_left
 {
-	-webkit-align-items: center;
+	/*-webkit-align-items: center;
 	align-items: center;
 	-webkit-justify-content: center;
-	justify-content: center;
+	justify-content: center;*/
 	width: 330px;
 	max-height: 175px;
 	height: 175px;
-	background-image: url(http://lokahiboards.com/fr/wp-content/uploads/sites/10/2015/08/img-race.jpg);
+	background-image: url(images/img-race.jpg);
+	background-size: cover;
+
+    
 }
 
-/*#img_left:hover
+#middle_hover_left
 {
+	visibility: hidden;
+	position: relative;
+	left: 25px;
+	top: -122.5px;
+	width: 280px;
+	height: 140px;
 	background-color: white;
-	margin-left: 40px;
-	margin-top: 20px;
-	height:140px; 
-	width:275px;
-}*/
+	/*opacity: 0;
+	transition: opacity 0.3s ease-in-out;*/
+}
+
+#img_left:hover #middle_hover_left/* agir sur le 2em element a partir du premier*/
+{
+	visibility: visible;
+}
 
 #img_middle
 {
-	-webkit-align-items: center;
-          align-items: center;
-  -webkit-justify-content: center;
-          justify-content: center;
+	/*-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;*/
 	width: 330px;
 	max-height: 175px;
 	height: 175px;
 	background-image: url(http://lokahiboards.com/fr/wp-content/uploads/sites/10/2015/08/img-wave1.jpg);
+	background-size: cover;
+
 }
 
-/*#img_middle:hover
+#middle_hover_middle
 {
-	opacity: 0;
+	visibility: hidden;
+	position: relative;
+	left: 25px;
+	top: -122.5px;
+	width: 280px;
+	height: 140px;
 	background-color: white;
-	    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: 40px;
-	margin-top: 20px;
-	height:140px; 
-	width:275px;
-}*/
+	/*transition: opacity 0.3s ease-in-out;*/
+}
+
+#img_middle:hover #middle_hover_middle/* agir sur le 2em element a partir du premier*/
+{
+	visibility: visible;
+}
 
 #img_right
 {
-	-webkit-align-items: center;
-          align-items: center;
-  /*-webkit-justify-content: center;
-          justify-content: center;*/
+/*	-webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+	justify-content: center;*/
 	width: 330px;
 	max-height: 175px;
 	height: 175px;
 	background-image: url(http://lokahiboards.com/fr/wp-content/uploads/sites/10/2015/08/img-discover.jpg);
+	background-size: cover;
 }
 
-/*#img_right:hover
+#middle_hover_right
 {
+	visibility: hidden;
+	position: relative;
+	left: 25px;
+	top: -122.5px;
+	width: 280px;
+	height: 140px;
 	background-color: white;
-	margin-left: 40px;
-	margin-top: 20px;
-	height:140px; 
-	width:275px;
 }
-*/
+
+#img_right:hover #middle_hover_right/* agir sur le 2em element a partir du premier*/
+{
+	visibility: visible;
+}
+
 .ico_middle
 {
 	display: block;
@@ -292,7 +209,22 @@ li
     margin-top: 70px; 
 }
 
-span
-{
 
-}
+
+
+
+/*.range-bloc-hover {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 207px;
+    background-color: #fff;
+    color: #f24725;
+    text-align: center;
+    transition: opacity 0.3s ease-in-out;
+}*/
