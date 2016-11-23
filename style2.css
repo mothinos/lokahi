@@ -1,0 +1,54 @@
+.slider
+{
+	display: flex;
+}
+
+
+#slideshow {
+	position: relative;
+	width: 100%;
+	height: 538px;
+
+}
+ 
+
+#slideshow:before,
+#slideshow:after
+ {
+	position: absolute;
+	bottom:16px;
+	z-index: -10;
+	width: 50%;
+	height: 20px;
+	content: " ";
+}
+#slideshow:before
+ {
+	left:0;
+	transform: rotate(-4deg);
+}
+#slideshow:after 
+{
+	right:0;
+	transform: rotate(4deg);
+}
+
+#slideshow .slider
+ {
+	position: absolute;
+	left:0; top:0;
+	width: 300%;
+	height: 538px;
+}
+
+@keyframes slider {
+	0%, 20%, 100%	{ left: 0 }
+	25%, 45%		{ left: -100% }
+	50%, 95%		{ left: -200% }		
+}
+
+#slideshow .slider {
+	/* ... avec la propriété animation */
+	animation: slider 32s infinite;
+}
+

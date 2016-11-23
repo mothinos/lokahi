@@ -7,9 +7,9 @@
 	display: flex;/* met en ligne les block*/
 	flex-wrap: nowrap;
 	width: 1280px;
-	font-weight: medium;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1em;
+	font-weight: bold;
+	font-family: 'Roboto-Medium', sans-serif;
+	font-size: 0.9em;
 	letter-spacing: 0.25em;
 	margin: auto;
 
@@ -31,8 +31,8 @@ ul
 .logo
 {
 	padding-top: 10px;
-	max-height: 60px;
-	max-width: 160px;
+	max-height: 70px;
+	max-width: 180px;
 	width: 100%;
 
 }
@@ -55,6 +55,11 @@ ul
 	color: #003A49;
 }
 
+a
+{
+	text-decoration: none;
+}
+
 #icones li
 {
 	list-style-type: none;
@@ -63,6 +68,7 @@ ul
 #icones
 {
 	margin-top: 40px;
+	margin-right: 60px;
 }
 
 #menu a:hover
@@ -86,13 +92,13 @@ ul
 	height: 20px;
 }
 
-#slider
+/*#slider
 {
 	display: flex;
 	overflow: hidden;
 	width: 100%;
 }
-
+*/
 #middle
 {
 	display: flex;
@@ -145,8 +151,6 @@ ul
 
 button
 {
-	
-	
 	display: block;
     margin-left: auto;
     margin-right: auto;
@@ -156,33 +160,42 @@ button
     border: 3px solid #F24725;
 }
 
-button a
+a button 
 {
 	color: #F24725;
 	font-weight: medium;
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.1em;
-	text-decoration: none;
 	background-color: #FFF;
 }
 
-button:hover
+a button:hover 
 {
 	cursor: pointer;
+	background-color: #F24725;
+	color: #FFF;
+	transition: all 0.3s ease-in-out;
+}
 
+a button:not(:hover) 
+{
+	cursor: pointer;
+	background-color: #FFF;
+	color: #F24725;
+	transition: all 0.3s ease-in-out;
 }
 
 #img_left:hover #middle_hover_left/* agir sur le 2em element a partir du premier*/
 {
 	visibility: visible;
 	opacity: 1;
-	transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
 }
 #img_left:not(:hover) #middle_hover_left/* agir sur le 2em element a partir du premier*/
 {
 	visibility: visible;
 	opacity: 0;
-	transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
 }
 
 #img_middle
@@ -212,13 +225,13 @@ button:hover
 {
 	visibility: visible;
 	opacity: 1;
-	transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
 }
 #img_middle:not(:hover) #middle_hover_middle/* agir sur le 2em element a partir du premier*/
 {
 	visibility: visible;
 	opacity: 0;
-	transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
 }
 
 #img_right
@@ -247,13 +260,13 @@ button:hover
 {
 	visibility: visible;
 		opacity: 1;
-	transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
 }
 #img_right:not(:hover) #middle_hover_right/* agir sur le 2em element a partir du premier*/
 {
 	visibility: visible;
 	opacity: 0;
-	transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
 }
 
 .ico_middle
