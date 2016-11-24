@@ -7,10 +7,9 @@
 	display: flex;/* met en ligne les block*/
 	flex-wrap: nowrap;
 	width: 1280px;
-	font-weight: bold;
 	font-family: 'Roboto-Medium', sans-serif;
-	font-size: 0.9em;
-	letter-spacing: 0.25em;
+	font-size: 18px;
+	letter-spacing: 120;
 	margin: auto;
 
 }
@@ -275,4 +274,32 @@ a button:not(:hover)
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px; 
+}
+
+.separation
+{
+	width: 1040px;
+	height:2px;
+	background-color: #C7c7C7;
+	display: flex;
+	margin: auto;
+	margin-top: 60px;
+}
+
+span
+{
+	color: #F24725;
+}
+
+footer h5
+{
+	color: #003A49;
+	font-family: 'Roboto-Medium', sans-serif;
+}
+
+footer
+{
+	display: flex;
+	flex-direction: column;
+
 }
