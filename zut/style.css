@@ -6,11 +6,11 @@
 {
 	display: flex;/* met en ligne les block*/
 	flex-wrap: nowrap;
-	width:65em; /*1380px;*/
+	width: 1380px;
 	font-family: 'Roboto-Medium', sans-serif;
 	font-size: 18px;
 	letter-spacing: 120;
-	margin: auto;
+	/*margin: auto;*/
 	margin-left: auto!important;
 	margin-right: auto!important;
 }
@@ -20,7 +20,7 @@
 	display: flex;/* met en ligne les block*/
 	flex-wrap: nowrap;
 	width: 100%;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 ul
@@ -46,7 +46,7 @@ ul
 #menu
 {
 	margin-top: 40px;
-	padding-left: 50px;
+	padding-left: 20px;
 }
 
 #header a
@@ -68,7 +68,7 @@ a
 #icones
 {
 	margin-top: 40px;
-	/*margin-right: 40px;*/
+	margin-right: 60px;
 }
 
 #menu a:hover
@@ -108,10 +108,6 @@ a
 	padding-top: 65px;*/
 }
 
-body
-{
-	margin: 0px;
-}
 
 /*trois images et les hover*/
 
@@ -294,7 +290,7 @@ a button:not(:hover)
 
 
 
-/*------------------------------footer------------------------------*/
+/*footer*/
 
 
 footer h5
@@ -310,10 +306,10 @@ footer
 	
 	font-family: 'Roboto-Medium',sans-serif;
 	display: flex;
-	justify-content: space-between;
-	margin-left: 250px;
-	margin-right: 230px;
-	/*width: 1000px;*/
+	justify-content: space-around;
+	margin-left: 275px;
+	margin-right: 50px;
+	width: 1000px;
 }
 
 footer ul 
@@ -351,28 +347,19 @@ footer img
 	height: 17px;
 }
 
+
+
 #contact
 {
 	display: flex;
 }
 
-#pages
-{
-	display: flex;
-	justify-content: space-around;
-}
-/*#contact span 
+#contact span 
 {
 	padding-right: 10px;
-}*/
+}
 
 /*________________________________________pages philosophy____________________________________________*/
-
-#corp_philo
-{
-	margin-left: 170px;
-	margin-top: 40px;
-}
 
 #philosophy_bandeau
 {
@@ -390,11 +377,9 @@ footer img
 #philosophy h1
 {
 margin: auto;
-padding-bottom: 65px;
-
 }
 
-#ph
+#titre_philosophy
 {
 	border-bottom: solid #F14928 1px;
 	padding-bottom: 5px;
@@ -404,8 +389,7 @@ padding-bottom: 65px;
 #philosophy
 {
 	color: #003A48;
-	font-family: 'Roboto-Medium', sans-serif;
-	letter-spacing: 120;
+	font-family: "Roboto-Medium", sans-serif;
 }
 
 #passion
@@ -416,19 +400,5 @@ padding-bottom: 65px;
 
 .after
 {
-	color:#F24725;
-	padding-right: 10px;
-}
-
-img [title="img-philosophie1"]
-{
-	top: 100px;
-	left: 100px;
-}
-
-
-img [title="img-philosophie2"]
-{
-	top: 200px;
-	left: 200px;
+	color:#F24725 ;
 }

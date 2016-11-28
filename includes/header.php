@@ -1,10 +1,12 @@
 <header>
 	<div id="header">
-		<img src="images/lokahiboards-logo-fond-blanc-longueur.jpg" alt="logo" class="logo" title="logo">
+		<div>
+			<a href="index.php"><img src="images/lokahiboards-logo-fond-blanc-longueur.jpg" alt="logo" class="logo" title="logo"></a>
+		</div>
 			<nav id="menus">
 				<div id="menu">
 					<ul>
-						<li><a href="PHILOSOPHY.html">PHILOSOPHY</a></li>
+						<li><a href="PHILOSOPHY.php">PHILOSOPHY</a></li>
 						<li><a href="DESIGN.html">DESIGN</a></li>
 						<li><a href="DESIGN.html">SHOP</a></li>
 						<li><a href="RIDERS.html">RIDERS</a></li>

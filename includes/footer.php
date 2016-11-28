@@ -15,11 +15,11 @@
 				<div>
 					<h5>PAGES <span class="after"> _____</span></h5>
 				</div>
-				<div>
+				<div id="pages">
 					<ul>
 						<li>Catalog 2016</li>
 						<li>Legal Notice</li>
-						<li>Terms & Comditions</li>
+						<li>Terms & Conditions</li>
 						<li>Send us a message</li>
 					</ul>
 				</div>
@@ -28,7 +28,7 @@
 		
 			<div>
 					<div id="contact">
-					<div><h5>CONTACT <div class="after">_____</div></h5></div>
+					<div><h5>CONTACT <span class="after">_____</span></h5></div>
 					<img src="icones/ico-social-insta.png" alt="insta" title="insta">
 					<img src="icones/ico-social-fb.png" alt="fb">
 				</div>
