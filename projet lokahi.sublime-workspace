@@ -1,0 +1,597 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fo",
+				"form\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"F",
+				"F24725"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"tran",
+				"transition-delay"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"flex",
+				"flex"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"al",
+				"align-content"
+			],
+			[
+				"in",
+				"inline-flex"
+			],
+			[
+				"fl",
+				"flex"
+			],
+			[
+				"bo",
+				"text-bottom"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"fle",
+				"flex-wrap"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"t",
+				"text-bottom"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"LIST",
+				"list-style-type"
+			],
+			[
+				"Ludovic",
+				"ludovic"
+			],
+			[
+				"s",
+				"src\tAttr"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"onmouse",
+				"onmouseover\tAttr"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"a",
+				"align-items"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"f",
+				"figure\tTag"
+			],
+			[
+				"border-top",
+				"border-top-width"
+			],
+			[
+				"RGB",
+				"rgba()"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"text-de",
+				"text-decoration"
+			],
+			[
+				"l",
+				"li\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3256,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style2.css",
+			"settings":
+			{
+				"buffer_size": 646,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "slider.css",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 4557,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "inst",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packinstall",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Install Package Control"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp64/www/Projets/lokahi/style.css",
+		"/C/wamp64/www/Projets/lokahi/index.html",
+		"/D/httrack/lokahi/index.html",
+		"/D/httrack/lokahi/www.w3.org/StyleSheets/TR/base.css",
+		"/D/httrack/lokahi/lokahiboards.com/fr/wp-content/themes/lokahi/css/font-awesome.min0c52.css",
+		"/C/wamp64/www/Projets/Chaos/style.css",
+		"/C/wamp64/www/Projets/Chaos/pages/masterclass.php",
+		"/C/wamp64/www/Projets/Chaos/style2.css",
+		"/C/wamp64/www/Projets/Chaos/pages/Masterclass.php",
+		"/C/wamp64/www/Projets/Chaos/squelette.php",
+		"/C/wamp64/www/Projets/Chaos/README.md",
+		"/D/git/brouillon/Masterclass.php",
+		"/C/wamp64/www/Projets/Chaos/test.html",
+		"/C/wamp64/www/Projets/Chaos/Style.css",
+		"/C/Users/Administrateur/Google Drive/code/première page/style.css",
+		"/C/Users/Administrateur/Google Drive/code/test js/index.html",
+		"/D/git/Projet Chaos/test.html",
+		"/C/Users/Administrateur/Google Drive/code/première page/firstpage.html",
+		"/D/git/clone1/tuto projet/index.html",
+		"/C/Users/Administrateur/Google Drive/code/exercice/exo14vide.html",
+		"/C/Users/Administrateur/Google Drive/code/première page/tardis/tardis.css",
+		"/C/wamp64/www/bootstrap-modal.html",
+		"/C/Users/Administrateur/Google Drive/code/test bootstrap/style.css",
+		"/C/Users/Administrateur/Google Drive/code/test bootstrap/bootstrap.css",
+		"/C/Users/Administrateur/Google Drive/code/test bootstrap/index.html",
+		"/D/code/bootstrap/css/bootstrap.css",
+		"/D/code/bootstrap-3.3.7-dist/css/bootstrap.css",
+		"/C/Users/Administrateur/Google Drive/code/première page/tardis/tardis.html",
+		"/C/Users/Administrateur/Google Drive/code/première page/css.odt",
+		"/C/Users/Administrateur/Google Drive/code/tardis/tardis.html",
+		"/C/Users/Administrateur/Google Drive/code/tardis/tardis.css",
+		"/C/Users/Administrateur/Google Drive/code/hover/hover.html",
+		"/C/Users/Administrateur/Google Drive/code/hover/hover.css",
+		"/C/Users/Administrateur/Google Drive/code/tardis/tadis.css",
+		"/E/hover avec transition/style.css",
+		"/E/hover avec transition/html.html",
+		"/D/code/première page/style.css",
+		"/D/code/exercice html/tuto giraud/menu.css",
+		"/D/code/exercice html/tuto giraud/accueil.html",
+		"/D/code/première page/js.js",
+		"/D/code/première page/first.html",
+		"/D/new.html",
+		"/D/code/exercice html/tuto giraud/new",
+		"/D/code/exercice html/tuto giraud/accueil",
+		"/C/Users/Administrateur/Documents/exercice html/page perso/style.css",
+		"/C/Users/Administrateur/Documents/exercice html/page perso/test.html",
+		"/C/Users/Administrateur/Documents/exercice html/test.html",
+		"/C/Users/Administrateur/Documents/exercice html/tuto zozor/html/zozor.html",
+		"/C/Users/Administrateur/Documents/exercice html/tuto zozor/html/style.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\">\n",
+			"hidden",
+			"c",
+			";\n",
+			"font",
+			"red",
+			">\n",
+			"<li></li>",
+			"></",
+			"font-size"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								209
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "style2.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 646,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								370,
+								370
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "slider.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4557,
+								4557
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3392.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "projet lokahi.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

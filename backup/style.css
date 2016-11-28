@@ -287,11 +287,13 @@ a button:not(:hover)
 	margin-top: 60px;
 }
 
-
+span
+{
+	color: #F24725;
+}
 
 
 /*footer*/
-
 
 footer h5
 {
@@ -302,7 +304,7 @@ footer h5
 
 footer
 {
-	color: #003A49/*bleu*/;
+	color: #003A49;
 	
 	font-family: 'Roboto-Medium',sans-serif;
 	display: flex;
@@ -312,19 +314,12 @@ footer
 	width: 1000px;
 }
 
-footer ul 
+footer ul
 {
 	display: list-item;/* pour garder la liste en colonne*/
 	padding-left: 0px;/* pour aligner la liste avec le titre*/
 	margin-top: 0px;
 	list-style-type: none;
-}
-
-footer input
-{
-	background-color: #F4F4F4;
-	border: 0px;
-	text-align: center;
 }
 
 footer button
@@ -347,58 +342,13 @@ footer img
 	height: 17px;
 }
 
-
-
 #contact
 {
 	display: flex;
+	
 }
 
 #contact span 
 {
 	padding-right: 10px;
-}
-
-/*________________________________________pages philosophy____________________________________________*/
-
-#philosophy_bandeau
-{
-	width: 100%;
-	height: 160px;
-	background-image: url(http://lokahiboards.com/fr/wp-content/uploads/sites/10/2015/08/bg-header-philosophie.jpg);
-	background-position: top;
-	top: 0px;
-	margin: 0px;
-	padding: 0px;
-	color: #FFF;
-	display: flex;
-}
-
-#philosophy h1
-{
-margin: auto;
-}
-
-#titre_philosophy
-{
-	border-bottom: solid #F14928 1px;
-	padding-bottom: 5px;
-	color: #003A48;
-}
-
-#philosophy
-{
-	color: #003A48;
-	font-family: "Roboto-Medium", sans-serif;
-}
-
-#passion
-{
-	color: #F14928 !important;
-	font-size: 24px;
-}
-
-.after
-{
-	color:#F24725 ;
 }
