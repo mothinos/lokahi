@@ -4,12 +4,104 @@
 		"selected_items":
 		[
 			[
-				"fo",
-				"form\tTag"
+				"bor",
+				"border-top"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"php",
+				"php\t<?php … ?>"
+			],
+			[
+				"sp",
+				"space-between"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"a",
+				"after"
+			],
+			[
+				"Ro",
+				"Roboto-Medium"
+			],
+			[
+				"bod",
+				"border-bottom"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"pot",
+				"position"
+			],
+			[
+				"b",
+				"background-image"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"lign",
+				"line-height"
+			],
+			[
+				"font",
+				"justify-content"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"fle",
+				"flex"
 			],
 			[
 				"di",
 				"div\tTag"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"fo",
+				"form\tTag"
 			],
 			[
 				"col",
@@ -24,24 +116,8 @@
 				"text-decoration"
 			],
 			[
-				"mar",
-				"margin-right"
-			],
-			[
 				"F",
 				"F24725"
-			],
-			[
-				"font",
-				"font-weight"
-			],
-			[
-				"pa",
-				"padding-top"
-			],
-			[
-				"ma",
-				"margin"
 			],
 			[
 				"tran",
@@ -52,16 +128,8 @@
 				"margin"
 			],
 			[
-				"ba",
-				"background-color"
-			],
-			[
 				"back",
 				"background-repeat"
-			],
-			[
-				"margin",
-				"margin-top"
 			],
 			[
 				"padd",
@@ -74,10 +142,6 @@
 			[
 				"inlin",
 				"inline-block"
-			],
-			[
-				"al",
-				"align-content"
 			],
 			[
 				"in",
@@ -96,20 +160,12 @@
 				"padding"
 			],
 			[
-				"marg",
-				"margin-right"
-			],
-			[
 				"bac",
 				"background-color"
 			],
 			[
 				"max",
 				"max-width"
-			],
-			[
-				"fle",
-				"flex-wrap"
 			],
 			[
 				"h",
@@ -164,10 +220,6 @@
 				"width"
 			],
 			[
-				"a",
-				"align-items"
-			],
-			[
 				"text-a",
 				"text-align"
 			],
@@ -203,42 +255,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 3256,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "style2.css",
-			"settings":
-			{
-				"buffer_size": 646,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "slider.css",
-			"settings":
-			{
-				"buffer_size": 0,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "style.css",
-			"settings":
-			{
-				"buffer_size": 4557,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -285,8 +301,18 @@
 	},
 	"file_history":
 	[
+		"/C/wamp64/www/Projets/lokahi/slider.css",
 		"/C/wamp64/www/Projets/lokahi/style.css",
+		"/C/wamp64/www/Projets/lokahi/index.php",
+		"/C/wamp64/www/Projets/lokahi/includes/footer.php",
+		"/C/wamp64/www/Projets/lokahi/includes/header.php",
 		"/C/wamp64/www/Projets/lokahi/index.html",
+		"/C/wamp64/www/Projets/lokahi/zut/hover.css",
+		"/C/wamp64/www/Projets/lokahi/zut/hover.html",
+		"/C/wamp64/www/Projets/lokahi/style2.css",
+		"/C/wamp64/www/Projets/lokahi/index1.php",
+		"/C/wamp64/www/Projets/lokahi/philosophy.php",
+		"/C/wamp64/www/Projets/lokahi/zut/style.css",
 		"/D/httrack/lokahi/index.html",
 		"/D/httrack/lokahi/www.w3.org/StyleSheets/TR/base.css",
 		"/D/httrack/lokahi/lokahiboards.com/fr/wp-content/themes/lokahi/css/font-awesome.min0c52.css",
@@ -351,6 +377,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hr",
+			";\n",
+			"spa",
+			"bleu",
+			"after",
+			"body",
+			";\n",
+			"list-style-type: none;",
+			"></",
 			"\">\n",
 			"hidden",
 			"c",
@@ -378,136 +413,19 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3256,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								266,
-								209
-							]
-						],
-						"settings":
-						{
-							"history_list_is_closing": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 1,
-					"file": "style2.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 646,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								370,
-								370
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "slider.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4557,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4557,
-								4557
-							]
-						],
-						"settings":
-						{
-							"history_list_is_closing": true,
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 3392.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 21.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -533,7 +451,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.584187408492,
 			1.0
 		],
 		"rows":
@@ -551,7 +469,7 @@
 	"project": "projet lokahi.sublime-project",
 	"replace":
 	{
-		"height": 38.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -581,7 +499,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
