@@ -1,0 +1,107 @@
+
+
+#img_left
+{
+	width: 330px;
+	max-height: 175px;
+	height: 175px;
+	background-image: url(images/img-race.jpg);
+	background-size: cover;
+	top: 200px;
+	left: 500px; /*position de l'ensemble à modifier*/
+	position: fixed;
+
+}
+
+#middle_hover_left /*cadre blanc caché à l'état de repos*/
+{
+	visibility: hidden;
+	position: relative;
+	left: 25px;
+	top: -122.5px;
+	width: 280px;
+	height: 140px;
+	background-color: white;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.ico_hover /*position et taille icone orange dans le cadre blanc à l'état de repos*/
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+button /*position et taille du bouton discover au repos*/
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px;
+    width:125px;
+    height:30px;
+    border: 3px solid #F24725;
+}
+
+a button /*texte dans le bouton*/
+{
+	color: #F24725;
+	font-weight: medium;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.1em;
+	background-color: #FFF;
+}
+
+a button:hover /*hover sur le bouton transition du fond blanc vers le orange*/
+{
+	cursor: pointer;
+	background-color: #F24725;
+	color: #FFF;
+	transition: all 0.3s ease-in-out;
+}
+
+a button:not(:hover) /*retour ver l'état de repos du bouton*/
+{
+	cursor: pointer;
+	background-color: #FFF;
+	color: #F24725;
+	transition: all 0.3s ease-in-out;
+}
+
+#img_left:hover #middle_hover_left/* agir sur le 2em element(cadre blanc) a partir du premier(cadre avec l'image de fond)*/
+{
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 0.5s ease-in-out;
+}
+#img_left:not(:hover) #middle_hover_left/* agir sur le 2em element a partir du premier*/
+{
+	visibility: visible;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+#img_middle
+{
+	width: 330px;
+	max-height: 175px;
+	height: 175px;
+	background-image: url(http://lokahiboards.com/fr/wp-content/uploads/sites/10/2015/08/img-wave1.jpg);
+	background-size: cover;
+}
+
+.ico_middle /*position icone blanc*/
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px; 
+}
+
+body a /*ça c'est juste pour enlever le trait sous le liens dans le bouton*/
+{
+	text-decoration: none;
+}
+

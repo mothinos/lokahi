@@ -6,11 +6,11 @@
 {
 	display: flex;/* met en ligne les block*/
 	flex-wrap: nowrap;
-	width: 1380px;
+	width:65em; /*1380px;*/
 	font-family: 'Roboto-Medium', sans-serif;
 	font-size: 18px;
 	letter-spacing: 120;
-	/*margin: auto;*/
+	margin: auto;
 	margin-left: auto!important;
 	margin-right: auto!important;
 }
@@ -20,7 +20,7 @@
 	display: flex;/* met en ligne les block*/
 	flex-wrap: nowrap;
 	width: 100%;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 ul
@@ -46,7 +46,7 @@ ul
 #menu
 {
 	margin-top: 40px;
-	padding-left: 20px;
+	padding-left: 50px;
 }
 
 #header a
@@ -68,7 +68,7 @@ a
 #icones
 {
 	margin-top: 40px;
-	margin-right: 60px;
+	/*margin-right: 40px;*/
 }
 
 #menu a:hover
@@ -108,6 +108,10 @@ a
 	padding-top: 65px;*/
 }
 
+body
+{
+	margin: 0px;
+}
 
 /*trois images et les hover*/
 
@@ -287,13 +291,11 @@ a button:not(:hover)
 	margin-top: 60px;
 }
 
-span
-{
-	color: #F24725;
-}
 
 
-/*footer*/
+
+/*------------------------------footer------------------------------*/
+
 
 footer h5
 {
@@ -304,22 +306,29 @@ footer h5
 
 footer
 {
-	color: #003A49;
+	color: #003A49/*bleu*/;
 	
 	font-family: 'Roboto-Medium',sans-serif;
 	display: flex;
-	justify-content: space-around;
-	margin-left: 275px;
-	margin-right: 50px;
-	width: 1000px;
+	justify-content: space-between;
+	margin-left: 250px;
+	margin-right: 230px;
+	/*width: 1000px;*/
 }
 
-footer ul
+footer ul 
 {
 	display: list-item;/* pour garder la liste en colonne*/
 	padding-left: 0px;/* pour aligner la liste avec le titre*/
 	margin-top: 0px;
 	list-style-type: none;
+}
+
+footer input
+{
+	background-color: #F4F4F4;
+	border: 0px;
+	text-align: center;
 }
 
 footer button
@@ -345,10 +354,111 @@ footer img
 #contact
 {
 	display: flex;
-	
 }
 
-#contact span 
+#pages
+{
+	display: flex;
+	justify-content: space-around;
+}
+/*#contact span 
 {
 	padding-right: 10px;
+}*/
+
+/*________________________________________pages philosophy____________________________________________*/
+
+#corp_philo
+{
+	margin-left: 190px;
+	margin-top: 0px;
+}
+
+#philosophy_bandeau
+{
+	width: 100%;
+	height: 140px;
+	background-image: url(http://lokahiboards.com/fr/wp-content/uploads/sites/10/2015/08/bg-header-philosophie.jpg);
+	background-position: top;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+	color: #FFF;
+	display: flex;
+	margin-bottom: 35px;
+}
+
+#philosophy h1
+{
+margin: auto;
+align-items: center;
+letter-spacing: 0.25em;
+
+}
+
+#ph
+{
+	border-bottom: solid #F14928 1px;
+	padding-bottom: 5px;
+	color: #003A48;
+}
+
+#philosophy
+{
+	color: #003A48;
+	font-family: 'Roboto-Medium', sans-serif;
+	letter-spacing: 120;
+}
+
+#passion
+{
+	color: #F14928 !important;
+	font-size: 24px;
+	margin-top: 70px;
+	z-index: 0;
+	letter-spacing: 0.12em;
+	font-family: 'Roboto', 24pt;
+	font-style: italic;
+}
+
+.after
+{
+	color:#F24725;
+	padding-right: 10px;
+}
+
+img[title="img-philosophie1"]
+{
+	height: 295px;
+	width: 490px;
+	position: relative;
+	top: -160px;
+	left: 170px;
+	z-index: -1;
+}
+
+
+img[title="img-philosophie2"]
+{
+	position: relative;	
+	top: 50px;
+	left: -500px;
+	z-index: -2;
+	height: 295px;
+	width: 485px;
+}
+
+#paragraphe_philo
+{
+	height:256px; 
+	width:480px;
+	position: relative;
+	top: -133px;
+	left: 728px;
+}
+
+.video-content-bg-video
+{
+align-items: center;
+margin: auto;
 }

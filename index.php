@@ -40,7 +40,6 @@
 				<div id="img_middle"><img src="icones/ico-range-white-wave.png" class="ico_middle"><div id="middle_hover_middle"><img src="icones/ico-range-wave.png" class="ico_hover"><a href="#"><button>DISCOVER</button></a></div></div>
 				<div id="img_right"><img src="icones/ico-range-white-discover.png" class="ico_middle"><div id="middle_hover_right"><img src="icones/ico-range-discover.png" class="ico_hover"><a href="#"><button>DISCOVER</button></a></div></div>
 			</div>
-			<div class="separation"></div>
 		</body>
 		
 		<?php include("includes/footer.php"); ?>
