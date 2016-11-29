@@ -1,7 +1,7 @@
 /*http://pierre-giraud.com/html-css/exercices-html-css/creation-menu-simple-html-css.php*/
 /* http://fr.learnlayout.com/position.html 7/19 pour les position relatives et absolue et fixe*/
 
-/*---------------------------header--------------------------------*/
+/*---------------------------header---------------------------------*/
 header
 {
 	display: flex;/* met en ligne les block*/
