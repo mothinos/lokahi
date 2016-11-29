@@ -3,6 +3,11 @@
 		<head>
 			<title>LOKAHI - WATER EXPLORER</title>
 			<link rel="stylesheet" type="text/css" href="style.css">
+<<<<<<< HEAD
+=======
+			<link rel="stylesheet" type="text/css" href="style2.css">
+
+>>>>>>> 144471b58179003770b78a63d86de88bead820a9
 			<link rel="icon" type="image/png" href="icones/ico-range-lokahi-mini.png">
 			<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		</head>

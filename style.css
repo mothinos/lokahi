@@ -1,7 +1,11 @@
 /*http://pierre-giraud.com/html-css/exercices-html-css/creation-menu-simple-html-css.php*/
 /* http://fr.learnlayout.com/position.html 7/19 pour les position relatives et absolue et fixe*/
 
+<<<<<<< HEAD
 /*---------------------------header---------------------------------*/
+=======
+/*---------------------------header--------------------------------*/
+>>>>>>> 144471b58179003770b78a63d86de88bead820a9
 header
 {
 	display: flex;/* met en ligne les block*/
@@ -44,6 +48,7 @@ header a
 }
 
 #icones
+<<<<<<< HEAD
 {
 	float: right;
 }
@@ -51,6 +56,15 @@ header a
 /*
 #menus
 {
+=======
+{
+	float: right;
+}
+
+/*
+#menus
+{
+>>>>>>> 144471b58179003770b78a63d86de88bead820a9
 	display: flex;
 	flex-wrap: nowrap;
 	width: 100%;
@@ -305,13 +319,21 @@ a button:not(:hover)
     margin-top: 70px; 
 }
 /*--------------trois images et les hover--------------------*/
+<<<<<<< HEAD
+=======
 
+>>>>>>> 144471b58179003770b78a63d86de88bead820a9
 
 
 
 
 /*------------------------------footer------------------------------*/
 
+<<<<<<< HEAD
+/*------------------------------footer------------------------------*/
+
+=======
+>>>>>>> 144471b58179003770b78a63d86de88bead820a9
 
 
 footer h5
@@ -329,7 +351,11 @@ footer
 	border-top: 2px solid  #C7c7C7;
 	font-family: 'Roboto-Medium',sans-serif;
 	display: flex;
+<<<<<<< HEAD
 	justify-content: space-around;
+=======
+	justify-content: space-between;
+>>>>>>> 144471b58179003770b78a63d86de88bead820a9
 	margin-left: 250px;
 	margin-right: 230px;
 	/*width: 1000px;*/
@@ -371,6 +397,7 @@ footer img
 }
 
 #contact
+<<<<<<< HEAD
 {
 	display: flex;
 }
@@ -382,6 +409,8 @@ footer img
 }
 
 div[alt="up"]
+=======
+>>>>>>> 144471b58179003770b78a63d86de88bead820a9
 {
 	display: flex;
 	height:45px ;
@@ -397,6 +426,7 @@ div[alt="up"]
 	border-radius: 5px;
 }
 
+<<<<<<< HEAD
 #up
 {
 	color: #dfdfdf;
@@ -408,7 +438,17 @@ div[alt="up"]
 a[href="#logo"]:active
 {
 	transition: all 1000ms ease;
+=======
+#pages
+{
+	display: flex;
+	justify-content: space-around;
+>>>>>>> 144471b58179003770b78a63d86de88bead820a9
 }
+/*#contact span 
+{
+	padding-right: 10px;
+}*/
 
 
 /*#contact span 
@@ -443,6 +483,10 @@ a[href="#logo"]:active
 margin: auto;
 align-items: center;
 letter-spacing: 0.25em;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 144471b58179003770b78a63d86de88bead820a9
 }
 
 #ph

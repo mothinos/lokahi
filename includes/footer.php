@@ -43,5 +43,9 @@
 				</ul>
 			</div>
 		</div>
+<<<<<<< HEAD
 		<a href="#logo"><div alt="up"><p id="up"><</p></div></a>
+=======
+		
+>>>>>>> 144471b58179003770b78a63d86de88bead820a9
 	</footer>
