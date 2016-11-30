@@ -1,22 +1,22 @@
 /*http://pierre-giraud.com/html-css/exercices-html-css/creation-menu-simple-html-css.php*/
 /* http://fr.learnlayout.com/position.html 7/19 pour les position relatives et absolue et fixe*/
 
-<<<<<<< HEAD
+
 /*---------------------------header---------------------------------*/
-=======
 /*---------------------------header--------------------------------*/
->>>>>>> 144471b58179003770b78a63d86de88bead820a9
+
 header
 {
 	display: flex;/* met en ligne les block*/
 	justify-content: space-between;
 	width:1100px;
+	height: 70px;
+	padding-bottom: 30px;
 	font-family: 'Roboto-Medium', sans-serif;
 	font-size: 18px;
 	letter-spacing: 120;
 	margin-left: auto!important;
 	margin-right: auto!important;
-	margin-bottom: 30px;
 	list-style-type: none;
 	text-decoration: none;
 	color: #003A49;
@@ -28,6 +28,8 @@ header a
 	text-decoration: none;
 	color: #003A49;
 }
+
+
 
 #menu_de_navigation a
 {
@@ -48,7 +50,7 @@ header a
 }
 
 #icones
-<<<<<<< HEAD
+
 {
 	float: right;
 }
@@ -64,7 +66,7 @@ header a
 /*
 #menus
 {
->>>>>>> 144471b58179003770b78a63d86de88bead820a9
+
 	display: flex;
 	flex-wrap: nowrap;
 	width: 100%;
@@ -301,7 +303,7 @@ a button:not(:hover)
 #img_right:hover #middle_hover_right/* agir sur le 2em element a partir du premier*/
 {
 	visibility: visible;
-		opacity: 1;
+	opacity: 1;
 	transition: opacity 0.5s ease-in-out;
 }
 #img_right:not(:hover) #middle_hover_right/* agir sur le 2em element a partir du premier*/
@@ -319,21 +321,10 @@ a button:not(:hover)
     margin-top: 70px; 
 }
 /*--------------trois images et les hover--------------------*/
-<<<<<<< HEAD
-=======
-
->>>>>>> 144471b58179003770b78a63d86de88bead820a9
-
-
-
 
 /*------------------------------footer------------------------------*/
 
-<<<<<<< HEAD
-/*------------------------------footer------------------------------*/
 
-=======
->>>>>>> 144471b58179003770b78a63d86de88bead820a9
 
 
 footer h5
@@ -351,11 +342,10 @@ footer
 	border-top: 2px solid  #C7c7C7;
 	font-family: 'Roboto-Medium',sans-serif;
 	display: flex;
-<<<<<<< HEAD
 	justify-content: space-around;
-=======
+
 	justify-content: space-between;
->>>>>>> 144471b58179003770b78a63d86de88bead820a9
+
 	margin-left: 250px;
 	margin-right: 230px;
 	/*width: 1000px;*/
@@ -397,7 +387,7 @@ footer img
 }
 
 #contact
-<<<<<<< HEAD
+
 {
 	display: flex;
 }
@@ -409,8 +399,7 @@ footer img
 }
 
 div[alt="up"]
-=======
->>>>>>> 144471b58179003770b78a63d86de88bead820a9
+
 {
 	display: flex;
 	height:45px ;
@@ -426,7 +415,7 @@ div[alt="up"]
 	border-radius: 5px;
 }
 
-<<<<<<< HEAD
+
 #up
 {
 	color: #dfdfdf;
@@ -435,15 +424,14 @@ div[alt="up"]
 	/*transition: all 500ms ease;*/
 }
 
-a[href="#logo"]:active
+a[href="#logo"]:active/*test de transition pour le scroll up*/
 {
 	transition: all 1000ms ease;
-=======
+}
 #pages
 {
 	display: flex;
 	justify-content: space-around;
->>>>>>> 144471b58179003770b78a63d86de88bead820a9
 }
 /*#contact span 
 {
@@ -456,7 +444,7 @@ a[href="#logo"]:active
 	padding-right: 10px;
 }*/
 /*----------------------------------------footer------------------------------------------------------*/
-/*________________________________________pages philosophy____________________________________________*/
+/*-------------------------------------pages philosophy____________________________________________*/
 
 #corp_philo
 {
@@ -476,20 +464,17 @@ a[href="#logo"]:active
 	color: #FFF;
 	display: flex;
 	margin-bottom: 35px;
+	margin-top: 25px;
 }
 
-#philosophy h1
+.grand_titre
 {
 margin: auto;
 align-items: center;
 letter-spacing: 0.25em;
-<<<<<<< HEAD
-=======
-
->>>>>>> 144471b58179003770b78a63d86de88bead820a9
 }
 
-#ph
+.AB
 {
 	border-bottom: solid #F14928 1px;
 	padding-bottom: 5px;
@@ -516,7 +501,7 @@ letter-spacing: 0.25em;
 
 .after
 {
-	color:#F24725;
+	color:#F24725 !important;
 	padding-right: 10px;
 }
 
@@ -555,3 +540,69 @@ img[title="img-philosophie2"]
 align-items: center;
 margin: auto;
 }
+
+/*-----------------------------------basket----------------------------*/
+
+#basket
+{
+	position: fixed;
+	right: 0px;
+	width: 350px;
+	height: 100%;
+	z-index: 100;
+	border: 3px solid blue;
+	visibility: hidden;
+}
+
+:target
+{
+	visibility: visible;
+}
+
+#fond_basket
+{
+	background-color: black;
+	opacity: 0.5;
+	width: 100%;
+	height: 100%;
+	transition: opacity 2s ease-in-out;
+	border: 3px solid red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#page_basket
+{
+	
+	width: 70%;
+	height: 50%;
+	position: relative;
+	opacity: 1 !important;
+	
+	background-color: white;
+}
+
+/*-------------------------------------riders--------------------------*/
+
+#riders_bandeau
+{
+	width: 100%;
+	height: 140px;
+	background-image: url(http://lokahiboards.com/fr/wp-content/uploads/sites/10/2015/08/bg-header-riders.jpg);
+	background-position: top;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+	color: #FFF;
+	display: flex;
+	margin-bottom: 35px;
+	margin-top: 25px;
+}
+
+
+
+
+
+
+/*--------------------------------------général------------------------*/

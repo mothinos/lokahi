@@ -29,8 +29,8 @@
 		<div>
 				<div id="contact">
 				<div><h5>CONTACT <span class="after">_____</span></h5></div>
-				<img src="icones/ico-social-insta.png" alt="insta" title="insta">
-				<img src="icones/ico-social-fb.png" alt="fb">
+				<a href="https://www.instagram.com/lokahiboards/"><img src="icones/ico-social-insta.png" alt="insta" title="insta"></a>
+				<a href="https://www.facebook.com/SUPlokahiboards"><img src="icones/ico-social-fb.png" alt="fb"></a>
 			</div>
 			</div>
 			<div>
@@ -43,9 +43,9 @@
 				</ul>
 			</div>
 		</div>
-<<<<<<< HEAD
+
 		<a href="#logo"><div alt="up"><p id="up"><</p></div></a>
-=======
+
 		
->>>>>>> 144471b58179003770b78a63d86de88bead820a9
+
 	</footer>
